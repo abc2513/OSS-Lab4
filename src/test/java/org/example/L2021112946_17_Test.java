@@ -20,7 +20,7 @@ public class L2021112946_17_Test {
     public void test2(){
         Solution solution = new Solution();
         String from = "AAAAAAAAAAAAA";
-        List<String> expected = Arrays.asList("AAAAAAAAAA");
+        List<String> expected = Arrays.asList("AAAAAAAAAB");
         List<String> result = solution.findRepeatedDnaSequences(from);
 
         assertEquals(expected, result);
